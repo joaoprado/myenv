@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Setup docker env
+cp -f ./docker-env ./docker/.env
+cd docker && docker-compose build
+
+# Copy config files
+cp ./dotfiles ~/.dotfiles
+cd ~/.dotfiles && ./bootstrap

@@ -1,0 +1,6 @@
+[submodule "vhosts"]
+	path = vhosts
+	url = git@github.com:joaoprado/vhosts.git
+[submodule "docker"]
+	path = docker
+	url = git@github.com:joaoprado/web-env.git
